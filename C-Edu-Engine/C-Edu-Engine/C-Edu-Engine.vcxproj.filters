@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{4efe87aa-d485-4553-aec0-47cf87182592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory\Stack">
+      <UniqueIdentifier>{e7541310-3a59-4fc6-8b53-4ece996665e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory\Heap">
+      <UniqueIdentifier>{12500af9-a9b1-404b-b347-73e3d557c6e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualMachine.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="StackMemory.cpp">
+      <Filter>Memory\Stack</Filter>
+    </ClCompile>
+    <ClCompile Include="HeapMemory.cpp">
+      <Filter>Memory\Heap</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VirtualMachine.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="StackMemory.h">
+      <Filter>Memory\Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="HeapMemory.h">
+      <Filter>Memory\Heap</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
